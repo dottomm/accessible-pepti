@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,IAAI,CAAJ,YAAI;AACJ,IAAI,CAAJ,WAAI;AACJ,IAAI,CAAJ,WAAI;AACJ,IAAI,CAAJ,WAAI;AACJ,IAAI,CAAJ,gBAAI;AACJ,IAAI,CAAJ,iBAAI;AACJ,IAAI,CAAJ,aAAI;AACJ,IAAI,CAAJ,YAAI;AACJ,IAAI,CAAJ,cAAI;AACJ,IAAI,CAAJ,oBAAI",
+    "sources": [
+        "../src/assets/scss/globals.scss"
+    ],
+    "names": [],
+    "file": "globals.css"
+}

@@ -1,0 +1,112 @@
+---
+import DefaultLayout from '../layouts/DefaultLayout.astro'
+import Hero from '../components/Hero.astro'
+import Feature from '../components/Feature.astro'
+import Counter from '../components/Counter.astro'
+import ContentMedia from '../components/ContentMedia.astro'
+
+---
+
+<DefaultLayout title="Home">
+  <Hero />
+  <section class="my-14" id="focus1">
+    <div class="container">
+      <h2>Project Focus Areas</h2>
+      <h4>The PEPTI project encompasses three primary focus areas: </h4>
+      <div class="focus-title">  
+        <h3>Focus Area 1: Embedded Instruction Framework of Effective Practices (Inclusion)</h3>
+        <p>The goal is to enhance preschool educator competency in evidence-based, culturally, and linguistically responsive inclusion practices within general education preschool classrooms.</p>
+        <h4 >Project Activities: </h4>
+      </div>
+      
+      <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+          <Feature icon="mdi:food-apple-outline" title="EI Professional learning" url="https://draccess.org" >
+            Provide professional learning in the Embedded Instruction model to 36 PK classrooms across 6 LEAs (including County Offices of Education (COEs) and charters) in diverse geographic and demographic regions. LEA teachers and coaches will participate in 50 hours of professional development that includes practice-based coaching over four years.
+          </Feature>
+          <Feature icon="mdi:food-apple-outline" title="Job Embedded-Coaching">
+            Offer job embedded coaching to support 6 site-based coaches and preschool teachers in participating classrooms. Two statewide coaches will oversee completion of the EI asynchronous module, host bi-weekly PLCs with participants and monthly coach consultations, and review and respond to monthly coach videos and logs to support fidelity of implementation. 
+          </Feature>
+          <Feature icon="mdi:food-apple-outline" title="LEA sustainability and scale-up">
+            Promote sustainability and scale-up by training and coaching local coaches and teachers, showcasing demonstration classrooms, and engaging administrators in regular continuous improvement cycles to evaluate data, refine implementation, and build capacity for sustainability and scale-up. 
+          </Feature>
+        </div>
+    </div>
+    </section>
+    <section class="my-24" id="focus2">
+      <div class="container">
+     <div class="focus-title">
+        <h3>Focus Area 2: Family-Guided Transitions (Transition)</h3>
+        <p>The objective is to build the capacity of early start professionals responsible for Part C transition to cultivate productive interactions with families, children, and teachers. This promotes equitable access and support for educational opportunities for children with disabilities.</p>
+        <h4>Project Activities: </h4>
+     </div>
+      <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+          <Feature icon="mdi:food-apple-outline" title="Family-guided practices training module">
+            Develop and disseminate a virtual training module on family-guided practices, integrating it into existing systems such as CEITAN’s Regional Center training and DDS Communities of Practice website, and scaling it up to kindergarten transition teams through the PTIC partnership. The ELAFRC will develop and disseminate a training module for the 47 statewide FRNs (other transition-team professionals, families and PK staff). To inform its development, Dr. Hall will conduct interviews with culturally diverse families of children with disabilities and produce a summary report on their challenges, needs, and values in building successful partnerships with Early Service providers. 
+          </Feature>
+          <Feature icon="mdi:food-apple-outline" title="Family Partnership Professional Learning Communities" >
+            Facilitate a community of practice and book study lead by Dr. Holdren on Turnbull’s Sunshine Model using the book Families and Professionals (2021) to provide on-going job-embedded learning and implementation support for LEA, FRC, FEC, and PTIC staff. 
+          </Feature>
+          <Feature icon="mdi:food-apple-outline" title="Transition support materials">Develop transition support materials for broad dissemmination, including an informational pamphlet on Part C resources for Part B professionals, and interactive e-Resource map on Part C resources and referral networks, and a library of video vignettes showcasing successful practitioner-family partnerships. </Feature>
+        </div>
+      </div>
+    </section>
+    <section class="my-24">
+      <div class="container">
+        <div class="focus-title">
+          <h3>Focus Area 3: Interagency Collaboration and Statewide Scale-up (Taskforce)</h3>
+          <p>The aim is to foster interagency collaboration through a joint taskforce between the Early Childhood and Special Education partners within the CDE and DDS. The taskforce will develop and disseminate resources that align IDEA Part B and Part C services to better serve CA young children with disabilities and their families in California.</p>
+          <h4>Project Activities: </h4>
+        </div>
+        <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+        <Feature icon="mdi:food-apple-outline" title="Interagency Taskforce">Convene an interagency taskforce across Part B and Part C educational partners to identify existing resources, align with project goals, and establish workgroups for resource development.  </Feature>
+        <Feature icon="mdi:food-apple-outline" title="Resource Guide">Develop an interagency Resource Guide through the Taskforce for broad dissemination through the CET, DDS, and Early Start websites and listservs.</Feature>
+        <Feature icon="mdi:food-apple-outline" title="Preservice and in-service alignment">Partner with CAPECSE to align preservice and in-service training on transition and inclusion practices, conduct a study and provide recommendations on preservice training needs within the California State University system. CAPECSE will also serve in an advisory capacity to the SPDG team through regular meetings and serve on the SLT.</Feature>
+        </div>
+    </div>
+  </section>
+  <ContentMedia imgSrc="/thoryofchange.webp">
+    <h2>CA SPDG Theory of Action</h2>
+    <p class="text-2xl">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet mollis metus, ut suscipit lectus dapibus sit amet. Praesent efficitur sit amet leo sed condimentum. Pellentesque ultricies mi non erat malesuada porttitor. Curabitur sem tortor, feugiat nec tortor ullamcorper, sagittis tincidunt libero. Morbi efficitur lectus tortor, vel ullamcorper velit luctus vitae. Nulla fermentum bibendum lectus. Praesent dapibus a eros in bibendum. Cras at justo metus.
+    </p>
+  </ContentMedia>
+  <!--<ContentMedia imgSrc="/wcag-compliant.webp" reverseImg={true}>
+    <h2>WCAG 2.1 AA Compliant</h2>
+    <p class="text-2xl">
+      Using semantic HTML, landmarks, skip links, screen reader friendly content, aria-labels, keyboard accessible
+      navigation and components, clear outlines and tab indicators and the right color contrast, you're more certain of
+      reaching WCAG AA compliance.
+    </p>
+  </ContentMedia> -->
+  <section class="mt-64 mb-32">
+    <div class="container">
+      <h2 class="mb-16 text-6xl">SPDG Results</h2>
+      <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-4">
+        <Counter count="59" title="Counties" sub="Participating" />
+        <Counter count="130" title="School" sub="Districts" />
+        <Counter count="500" title="Teachers" sub="Enrolled" />
+        <Counter count="90,000" title="Students " sub="Supported" />
+      </div>
+    </div>
+  </section>
+</DefaultLayout>
+
+<style>
+
+.focus-title{
+  display:flex;
+  flex-direction: column;
+  margin:2em;
+  justify-content: center;
+
+}
+.focus-title h2{
+  justify-content: center;
+}
+.focus-title h4{
+  margin-top:1em;
+  text-align: center;
+}
+
+
+</style>

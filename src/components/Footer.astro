@@ -1,0 +1,55 @@
+---
+import CallToAction from './CallToAction.astro'
+
+const currentYear = new Date().getFullYear()
+---
+
+<footer id="footer">
+  <section class="py-8">
+    <div class="container">
+      <p>The PEPTI Project (Partnerships for Effective Practices in Transition and Inclusion) is a collaboration between the California Department of Education (CDE), specifically the Special Education Division (SED) and Early Childhood Division (ECD), as well as the Department of Developmental Services (DDS). The primary objective of this project is to enhance the outcomes for young children with disabilities or at risk for developmental delays. This will be achieved through the improvement of personnel development systems in early intervention, early education, and transition services. <a href='https://napacoe.org/'>The Napa County Office of Education’s (NCOE) Research and Professional Development Center</a> is responsible for facilitating the project. Project funding runs 2023-2028, thanks to a State Personnel Development Grant (SPDG) within the <a href='https://www2.ed.gov/about/offices/list/osers/osep/index.html' target='_blank'>Office of Special Education Programs (OSEP)</a> under the <a href='https://sites.ed.gov/idea/' target="_blank">Individuals with Disabilities Education Act (IDEA)</a>, <a href='https://sites.ed.gov/idea/statuteregulations/' target="_blank">Part D (Title 20, United States Code Section 1451–1455)</a>.</p>
+      <div class="CDELogos">
+        <div><img src="/CDELogo.webp" alt="California Department of Education"></div>
+        <div><img src="/DDSLogo.webp" alt="California Department of Developmental Service"></div>
+        <div><img src="/napaLogo.webp" alt="Napa County Office of Education"></div>
+        <div><img src="/OSEPLogo.webp" alt="Office of Special Education Programs (OSEP) "></div>
+        
+      </div>
+     
+      <p>        &copy; {currentYear} The contents of this document were developed through a federally funded State Personnel Development Grant (SPDG), provided from the U.S. Department of Education, Office of Special Education Projects, Part D of the Individuals with Disabilities Education Act (IDEA), #H322A220004, Project Officer sunyoung.Ahn@ed.gov. The SPDG funds are competitively awarded to the California Department of Education, Special Education Division and administered by the Napa County Office of Education – Research and Professional Development Center. The contents of this site do not necessarily represent the policy of the US Department of Education and no assumption of endorsement by the Federal government should be made.
+      </p>
+    </div>
+  </section>
+</footer>
+<style>
+
+  footer{
+  
+  width: 100%;
+  /* Set the fixed heig*/
+  }
+
+  footer > div{
+    width:40%;
+  }
+
+  .CDELogos {
+    display:flex;
+    flex-flow: row wrap;
+    width:auto;
+    height:auto;
+    justify-content: space-around;
+    align-content: center;
+
+  }
+
+  .CDELogos > div{
+    justify-items: center;
+    width: 170px;
+    flex-basis:  | auto;
+    
+    align-self: center; 
+
+  }
+  
+</style>
